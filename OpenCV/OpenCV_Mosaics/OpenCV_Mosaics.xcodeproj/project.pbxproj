@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C7031B2146789D00427A7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7031A2146789D00427A7F /* AppDelegate.m */; };
+		04C7031E2146789D00427A7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7031D2146789D00427A7F /* ViewController.m */; };
+		04C703212146789D00427A7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C7031F2146789D00427A7F /* Main.storyboard */; };
+		04C70323214678A500427A7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C70322214678A500427A7F /* Assets.xcassets */; };
+		04C70326214678A500427A7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C70324214678A500427A7F /* LaunchScreen.storyboard */; };
+		04C70329214678A500427A7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C70328214678A500427A7F /* main.m */; };
+		04C70333214678A600427A7F /* OpenCV_MosaicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C70332214678A600427A7F /* OpenCV_MosaicsTests.m */; };
+		04C7033E214678A600427A7F /* OpenCV_MosaicsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7033D214678A600427A7F /* OpenCV_MosaicsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04C7032F214678A600427A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C7030E2146789D00427A7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C703152146789D00427A7F;
+			remoteInfo = OpenCV_Mosaics;
+		};
+		04C7033A214678A600427A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04C7030E2146789D00427A7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04C703152146789D00427A7F;
+			remoteInfo = OpenCV_Mosaics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C703162146789D00427A7F /* OpenCV_Mosaics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCV_Mosaics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C703192146789D00427A7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04C7031A2146789D00427A7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04C7031C2146789D00427A7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04C7031D2146789D00427A7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04C703202146789D00427A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04C70322214678A500427A7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04C70325214678A500427A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04C70327214678A500427A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C70328214678A500427A7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04C7032E214678A600427A7F /* OpenCV_MosaicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCV_MosaicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C70332214678A600427A7F /* OpenCV_MosaicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCV_MosaicsTests.m; sourceTree = "<group>"; };
+		04C70334214678A600427A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C70339214678A600427A7F /* OpenCV_MosaicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCV_MosaicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C7033D214678A600427A7F /* OpenCV_MosaicsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCV_MosaicsUITests.m; sourceTree = "<group>"; };
+		04C7033F214678A600427A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C703132146789D00427A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C7032B214678A600427A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C70336214678A600427A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C7030D2146789D00427A7F = {
+			isa = PBXGroup;
+			children = (
+				04C703182146789D00427A7F /* OpenCV_Mosaics */,
+				04C70331214678A600427A7F /* OpenCV_MosaicsTests */,
+				04C7033C214678A600427A7F /* OpenCV_MosaicsUITests */,
+				04C703172146789D00427A7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04C703172146789D00427A7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C703162146789D00427A7F /* OpenCV_Mosaics.app */,
+				04C7032E214678A600427A7F /* OpenCV_MosaicsTests.xctest */,
+				04C70339214678A600427A7F /* OpenCV_MosaicsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C703182146789D00427A7F /* OpenCV_Mosaics */ = {
+			isa = PBXGroup;
+			children = (
+				04C703192146789D00427A7F /* AppDelegate.h */,
+				04C7031A2146789D00427A7F /* AppDelegate.m */,
+				04C7031C2146789D00427A7F /* ViewController.h */,
+				04C7031D2146789D00427A7F /* ViewController.m */,
+				04C7031F2146789D00427A7F /* Main.storyboard */,
+				04C70322214678A500427A7F /* Assets.xcassets */,
+				04C70324214678A500427A7F /* LaunchScreen.storyboard */,
+				04C70327214678A500427A7F /* Info.plist */,
+				04C70328214678A500427A7F /* main.m */,
+			);
+			path = OpenCV_Mosaics;
+			sourceTree = "<group>";
+		};
+		04C70331214678A600427A7F /* OpenCV_MosaicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				04C70332214678A600427A7F /* OpenCV_MosaicsTests.m */,
+				04C70334214678A600427A7F /* Info.plist */,
+			);
+			path = OpenCV_MosaicsTests;
+			sourceTree = "<group>";
+		};
+		04C7033C214678A600427A7F /* OpenCV_MosaicsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04C7033D214678A600427A7F /* OpenCV_MosaicsUITests.m */,
+				04C7033F214678A600427A7F /* Info.plist */,
+			);
+			path = OpenCV_MosaicsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C703152146789D00427A7F /* OpenCV_Mosaics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C70342214678A600427A7F /* Build configuration list for PBXNativeTarget "OpenCV_Mosaics" */;
+			buildPhases = (
+				04C703122146789D00427A7F /* Sources */,
+				04C703132146789D00427A7F /* Frameworks */,
+				04C703142146789D00427A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenCV_Mosaics;
+			productName = OpenCV_Mosaics;
+			productReference = 04C703162146789D00427A7F /* OpenCV_Mosaics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04C7032D214678A600427A7F /* OpenCV_MosaicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C70345214678A600427A7F /* Build configuration list for PBXNativeTarget "OpenCV_MosaicsTests" */;
+			buildPhases = (
+				04C7032A214678A600427A7F /* Sources */,
+				04C7032B214678A600427A7F /* Frameworks */,
+				04C7032C214678A600427A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C70330214678A600427A7F /* PBXTargetDependency */,
+			);
+			name = OpenCV_MosaicsTests;
+			productName = OpenCV_MosaicsTests;
+			productReference = 04C7032E214678A600427A7F /* OpenCV_MosaicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04C70338214678A600427A7F /* OpenCV_MosaicsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C70348214678A600427A7F /* Build configuration list for PBXNativeTarget "OpenCV_MosaicsUITests" */;
+			buildPhases = (
+				04C70335214678A600427A7F /* Sources */,
+				04C70336214678A600427A7F /* Frameworks */,
+				04C70337214678A600427A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04C7033B214678A600427A7F /* PBXTargetDependency */,
+			);
+			name = OpenCV_MosaicsUITests;
+			productName = OpenCV_MosaicsUITests;
+			productReference = 04C70339214678A600427A7F /* OpenCV_MosaicsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C7030E2146789D00427A7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = WT;
+				TargetAttributes = {
+					04C703152146789D00427A7F = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					04C7032D214678A600427A7F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 04C703152146789D00427A7F;
+					};
+					04C70338214678A600427A7F = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 04C703152146789D00427A7F;
+					};
+				};
+			};
+			buildConfigurationList = 04C703112146789D00427A7F /* Build configuration list for PBXProject "OpenCV_Mosaics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04C7030D2146789D00427A7F;
+			productRefGroup = 04C703172146789D00427A7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C703152146789D00427A7F /* OpenCV_Mosaics */,
+				04C7032D214678A600427A7F /* OpenCV_MosaicsTests */,
+				04C70338214678A600427A7F /* OpenCV_MosaicsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C703142146789D00427A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C70326214678A500427A7F /* LaunchScreen.storyboard in Resources */,
+				04C70323214678A500427A7F /* Assets.xcassets in Resources */,
+				04C703212146789D00427A7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C7032C214678A600427A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C70337214678A600427A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C703122146789D00427A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C7031E2146789D00427A7F /* ViewController.m in Sources */,
+				04C70329214678A500427A7F /* main.m in Sources */,
+				04C7031B2146789D00427A7F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C7032A214678A600427A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C70333214678A600427A7F /* OpenCV_MosaicsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04C70335214678A600427A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C7033E214678A600427A7F /* OpenCV_MosaicsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04C70330214678A600427A7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C703152146789D00427A7F /* OpenCV_Mosaics */;
+			targetProxy = 04C7032F214678A600427A7F /* PBXContainerItemProxy */;
+		};
+		04C7033B214678A600427A7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04C703152146789D00427A7F /* OpenCV_Mosaics */;
+			targetProxy = 04C7033A214678A600427A7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04C7031F2146789D00427A7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C703202146789D00427A7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04C70324214678A500427A7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C70325214678A500427A7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04C70340214678A600427A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04C70341214678A600427A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C70343214678A600427A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XV99QKSRHM;
+				INFOPLIST_FILE = OpenCV_Mosaics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.audition.www.OpenCV-Mosaics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04C70344214678A600427A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XV99QKSRHM;
+				INFOPLIST_FILE = OpenCV_Mosaics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.audition.www.OpenCV-Mosaics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04C70346214678A600427A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpenCV_MosaicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.audition.www.OpenCV-MosaicsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCV_Mosaics.app/OpenCV_Mosaics";
+			};
+			name = Debug;
+		};
+		04C70347214678A600427A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpenCV_MosaicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.audition.www.OpenCV-MosaicsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenCV_Mosaics.app/OpenCV_Mosaics";
+			};
+			name = Release;
+		};
+		04C70349214678A600427A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpenCV_MosaicsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.audition.www.OpenCV-MosaicsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenCV_Mosaics;
+			};
+			name = Debug;
+		};
+		04C7034A214678A600427A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = OpenCV_MosaicsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.audition.www.OpenCV-MosaicsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OpenCV_Mosaics;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C703112146789D00427A7F /* Build configuration list for PBXProject "OpenCV_Mosaics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C70340214678A600427A7F /* Debug */,
+				04C70341214678A600427A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C70342214678A600427A7F /* Build configuration list for PBXNativeTarget "OpenCV_Mosaics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C70343214678A600427A7F /* Debug */,
+				04C70344214678A600427A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C70345214678A600427A7F /* Build configuration list for PBXNativeTarget "OpenCV_MosaicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C70346214678A600427A7F /* Debug */,
+				04C70347214678A600427A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C70348214678A600427A7F /* Build configuration list for PBXNativeTarget "OpenCV_MosaicsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C70349214678A600427A7F /* Debug */,
+				04C7034A214678A600427A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04C7030E2146789D00427A7F /* Project object */;
+}
