@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0406E60121467D6900B3B84A /* ImageUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0406E60021467D6900B3B84A /* ImageUtils.mm */; };
-		0406E6032147538200B3B84A /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0406E6022147538100B3B84A /* opencv2.framework */; };
 		04C7031B2146789D00427A7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7031A2146789D00427A7F /* AppDelegate.m */; };
 		04C7031E2146789D00427A7F /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 04C7031D2146789D00427A7F /* ViewController.mm */; };
 		04C703212146789D00427A7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C7031F2146789D00427A7F /* Main.storyboard */; };
@@ -17,6 +16,7 @@
 		04C70329214678A500427A7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C70328214678A500427A7F /* main.m */; };
 		04C70333214678A600427A7F /* OpenCV_MosaicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C70332214678A600427A7F /* OpenCV_MosaicsTests.m */; };
 		04C7033E214678A600427A7F /* OpenCV_MosaicsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04C7033D214678A600427A7F /* OpenCV_MosaicsUITests.m */; };
+		04E88E0E2148BA8C004C374C /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04E88E0D2148BA8C004C374C /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 /* Begin PBXFileReference section */
 		0406E5FF21467D6900B3B84A /* ImageUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageUtils.h; sourceTree = "<group>"; };
 		0406E60021467D6900B3B84A /* ImageUtils.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageUtils.mm; sourceTree = "<group>"; };
-		0406E6022147538100B3B84A /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		0406E6042147598F00B3B84A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		04C703162146789D00427A7F /* OpenCV_Mosaics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCV_Mosaics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C703192146789D00427A7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +56,7 @@
 		04C70339214678A600427A7F /* OpenCV_MosaicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenCV_MosaicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C7033D214678A600427A7F /* OpenCV_MosaicsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenCV_MosaicsUITests.m; sourceTree = "<group>"; };
 		04C7033F214678A600427A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E88E0D2148BA8C004C374C /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0406E6032147538200B3B84A /* opencv2.framework in Frameworks */,
+				04E88E0E2148BA8C004C374C /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +162,7 @@
 		04C7034D21467BC500427A7F /* OpenCV */ = {
 			isa = PBXGroup;
 			children = (
-				0406E6022147538100B3B84A /* opencv2.framework */,
+				04E88E0D2148BA8C004C374C /* opencv2.framework */,
 			);
 			path = OpenCV;
 			sourceTree = "<group>";
